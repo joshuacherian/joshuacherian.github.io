@@ -121,7 +121,7 @@ plt.show()
 ```
 
 
-![png](output_2_0.png)
+![png](/images/output_2_0.png)
 
 
 
@@ -153,7 +153,7 @@ plt.show()
 ```
 
 
-![png](output_3_0.png)
+![png](/images/output_3_0.png)
 
 
 
@@ -184,7 +184,7 @@ plt.show()
 ```
 
 
-![png](output_4_0.png)
+![png](/images/output_4_0.png)
 
 
 

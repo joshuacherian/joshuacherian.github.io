@@ -1,0 +1,302 @@
+
+<!doctype>
+<html lang="en">
+  <head>
+    <meta content='Cubing Data Analysis - Joshua Cherian' name='title' />
+    <meta content='Cubing Data Analysis - Joshua Cherian' name='og:title' />
+    <title>Cubing Data Analysis - Joshua Cherian</title>
+    <link href='http://localhost:4000/images/fav.png' rel='shortcut icon'>
+<link href='http://localhost:4000/stylesheets/style.css' rel='stylesheet' type='text/css' />
+<link href='http://localhost:4000/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
+
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+
+  <meta content='http://localhost:4000/posts/Cubing-Data-Analysis' property='og:url' />
+  <meta content="import pandas as pdimport numpy as npimport matplotlib.pyplot as pltimport datetimeexcelFile = 'Cubing Data.xlsx'solu..." property='og:description' />
+  <meta content="article" property="og:type" />
+
+<!-- - -->
+
+
+
+
+
+  </head>
+  <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">
+    <header class="tc mt4">
+      <a href="http://localhost:4000">
+        <img src="http://localhost:4000/images/scribble.png" alt="Home" width="53" height="59">
+      </a>
+      <p>Joshua Cherian</p>
+    </header>
+    <div class="mw7 bg-white mt4 mb3 center br2-ns bt bb ba-ns b--light-gray">
+      <nav class="bb b--light-gray pv4 tc" aria-label="Main">
+        
+          <a class="link blue hover-mid-gray mh2 pv1"
+             href="http://localhost:4000/">
+             Posts
+           </a>
+        
+          <a class="link blue hover-mid-gray mh2 pv1"
+             href="http://localhost:4000/about">
+             About me
+           </a>
+        
+      </nav>
+
+      <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
+        
+          <div class="mb4">
+            <div class="fw600 light-silver mt1">16 Oct 2019</div>
+            <h1 class="ttu f3 mt0 lh-title cb mb2">
+              
+              Cubing Data Analysis
+            </h1>
+            
+          </div>
+        
+        <div class="markdown-body">
+          <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">datetime</span>
+<span class="n">excelFile</span> <span class="o">=</span> <span class="s">'Cubing Data.xlsx'</span>
+<span class="n">solutions</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">excelFile</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">date</span> <span class="o">=</span> <span class="s">'Solution Date &amp; Time'</span>
+<span class="n">solve</span> <span class="o">=</span> <span class="s">'Time Elapsed (seconds)'</span>
+<span class="n">ao5</span> <span class="o">=</span> <span class="s">'Current Ao5'</span>
+<span class="n">ao12</span> <span class="o">=</span> <span class="s">'Current Ao12'</span>
+<span class="n">ao100</span> <span class="o">=</span> <span class="s">'Current Ao100'</span>
+<span class="k">del</span> <span class="n">solutions</span><span class="p">[</span><span class="s">'Scramble'</span><span class="p">]</span>
+
+<span class="n">splits</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">25</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">45</span><span class="p">,</span><span class="mi">60</span><span class="p">]</span>
+<span class="n">splitNames</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Sub-15'</span><span class="p">,</span> <span class="s">'Sub-20'</span><span class="p">,</span> <span class="s">'Sub-25'</span><span class="p">,</span> <span class="s">'Sub-30'</span><span class="p">,</span> <span class="s">'Sub-45'</span><span class="p">,</span> <span class="s">'Sub-60'</span><span class="p">]</span>
+<span class="c"># solutions['Single Splits'] = pd.cut(solutions['Time Elapsed (seconds)'], splits, right = False, labels=splitNames)</span>
+<span class="c"># The line above isn't required, but it can show visually how each time is categorized.</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># This cell calculates and plots a normalized stackplot showing how solve times have decreased over the years.</span>
+
+<span class="n">now</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+<span class="n">currentYear</span> <span class="o">=</span> <span class="n">now</span><span class="o">.</span><span class="n">year</span>
+<span class="n">activeYear</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">activeMonth</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="c"># Determine what range you want to count</span>
+<span class="n">solutionsPerRange</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">rangeLabels</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">solutions</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">year</span> <span class="o">!=</span> <span class="n">activeYear</span> <span class="ow">and</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">year</span> <span class="o">!=</span> <span class="n">currentYear</span><span class="p">:</span> <span class="c">#when entering a new year</span>
+        <span class="n">activeYear</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">year</span>
+        <span class="n">solutionsPerRange</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">rangeLabels</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">activeYear</span><span class="p">))</span>
+    <span class="k">elif</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">year</span> <span class="o">==</span> <span class="n">activeYear</span> <span class="ow">and</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">year</span> <span class="o">!=</span> <span class="n">currentYear</span><span class="p">:</span> <span class="c">#when in a year != present year</span>
+        <span class="n">solutionsPerRange</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span> <span class="c">#when in the present year we want monthly breakdowns</span>
+        <span class="k">if</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">month</span> <span class="o">!=</span> <span class="n">activeMonth</span><span class="p">:</span> <span class="c">#when entering a new month</span>
+            <span class="n">activeMonth</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">month</span>
+            <span class="n">solutionsPerRange</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+            <span class="n">rangeLabels</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="n">currentYear</span><span class="p">,</span> <span class="n">activeMonth</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">'</span><span class="si">%</span><span class="s">B </span><span class="si">%</span><span class="s">Y'</span><span class="p">))</span>
+        <span class="k">else</span><span class="p">:</span> <span class="c">#when in any month</span>
+            <span class="n">solutionsPerRange</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+
+<span class="c"># print(solutionsPerRange)</span>
+<span class="c"># print(rangeLabels)</span>
+
+<span class="n">ranges</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">nextEnd</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">solutionsPerRange</span><span class="p">)):</span>
+    <span class="n">nextEnd</span> <span class="o">+=</span> <span class="n">solutionsPerRange</span><span class="p">[</span><span class="n">x</span><span class="p">]</span>
+    <span class="n">ranges</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">nextEnd</span><span class="p">)</span>
+
+<span class="c"># print(ranges)</span>
+
+<span class="c"># Stacked plots need to have all of one kind of data together (e.g., all the sub-15s in one list).</span>
+<span class="c"># Therefore, splitCounter needs to be rewritten to run through each range, count the sub-x times,</span>
+<span class="c"># then run again and count the next set of sub-x times.</span>
+
+<span class="c"># A nicer alternative may be to run through each date range and collect how many of each time there are,</span>
+<span class="c"># then transpose that matrix. Could be easier to implement and prevents us from having to run through each </span>
+<span class="c"># date range multiple times to get more data.</span>
+<span class="c"># This alternative was chosen and is implemented in the cell below.</span>
+
+<span class="n">totalSplits</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">ranges</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">rangeStart</span> <span class="o">=</span> <span class="n">ranges</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
+    <span class="n">rangeEnd</span> <span class="o">=</span> <span class="n">ranges</span><span class="p">[</span><span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
+    <span class="n">currentRange</span> <span class="o">=</span> <span class="n">solutions</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">rangeStart</span><span class="p">:</span><span class="n">rangeEnd</span><span class="p">]</span>   
+    <span class="n">splitCount</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">currentRange</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">15</span><span class="p">:</span>
+            <span class="n">splitCount</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">20</span><span class="p">:</span>
+            <span class="n">splitCount</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">25</span><span class="p">:</span>
+            <span class="n">splitCount</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">30</span><span class="p">:</span>
+            <span class="n">splitCount</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">45</span><span class="p">:</span>
+            <span class="n">splitCount</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">splitCount</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">totalSplits</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">splitCount</span><span class="p">)</span>
+
+<span class="c"># print(totalSplits)</span>
+
+<span class="c"># Prepare the data for plotting</span>
+<span class="n">plotData</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">totalSplits</span><span class="p">)</span>
+<span class="n">plotData</span> <span class="o">=</span> <span class="n">plotData</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span>
+<span class="n">plotData</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">splitNames</span>
+<span class="n">plotData</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">rangeLabels</span>
+
+<span class="c"># Normalize the data</span>
+<span class="n">normalizedData</span> <span class="o">=</span> <span class="n">plotData</span><span class="o">.</span><span class="n">divide</span><span class="p">(</span><span class="n">plotData</span><span class="o">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">normalizedData</span> <span class="o">=</span> <span class="n">normalizedData</span> <span class="o">*</span> <span class="mi">100</span>
+
+<span class="c"># Plot the data</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">stackplot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rangeLabels</span><span class="p">)),</span> <span class="n">normalizedData</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">splitNames</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'upper left'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">margins</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">'Improvement over time'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rangeLabels</span><span class="p">)),</span><span class="n">rangeLabels</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">45</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">'Date'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">'Percent (</span><span class="si">%</span><span class="s">)'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="/images/output_2_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># This cell calculates the PB for every day in the data set</span>
+
+<span class="n">activeDay</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">dailyPBs</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">cubingDays</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">solutions</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">day</span> <span class="o">!=</span> <span class="n">activeDay</span><span class="p">:</span> <span class="c"># when entering a new day</span>
+        <span class="n">activeDay</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">day</span>
+        <span class="n">dailyPBs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">cubingDays</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+    <span class="k">elif</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">day</span> <span class="o">==</span> <span class="n">activeDay</span> <span class="ow">and</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">dailyPBs</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span> <span class="c"># when a lower time is found that day</span>
+        <span class="n">dailyPBs</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span> <span class="c"># repeat the process</span>
+        <span class="k">continue</span>
+        
+<span class="c">#print(dailyPBs)</span>
+<span class="c">#print(cubingDays)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">cubingDays</span><span class="p">,</span> <span class="n">dailyPBs</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">'Best time on cubing days'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">'Date'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">'Time (s)'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">([])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="/images/output_3_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># This cell calculates the progression of my PBs over time</span>
+
+<span class="n">PBs</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">PBDates</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">solutions</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">PBs</span><span class="p">:</span> <span class="c"># initializing the PB list</span>
+        <span class="n">PBs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">PBDates</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">date</span><span class="p">))</span>
+    <span class="k">elif</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">PBs</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span> <span class="c"># if we find a new PB</span>
+        <span class="n">PBs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">PBDates</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">date</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span> <span class="c"># repeat the process</span>
+        <span class="k">continue</span>
+        
+<span class="c">#print(dailyPBs)</span>
+<span class="c">#print(cubingDays)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">PBDates</span><span class="p">,</span> <span class="n">PBs</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">'Progression of PBs'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">'Date'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">'Time (s)'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">([])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="/images/output_4_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#Scorigami!</span>
+
+<span class="n">bestTime</span> <span class="o">=</span> <span class="n">solutions</span><span class="o">.</span><span class="nb">min</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">worstTime</span> <span class="o">=</span> <span class="n">solutions</span><span class="o">.</span><span class="nb">max</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="n">numberOfPossibleUniqueTimes</span> <span class="o">=</span> <span class="nb">int</span><span class="p">((</span><span class="n">worstTime</span> <span class="o">-</span> <span class="n">bestTime</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">uniqueTimes</span> <span class="o">=</span> <span class="n">solutions</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<span class="n">numberOfUniqueTimes</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">uniqueTimes</span><span class="p">)</span>
+    
+<span class="n">numberOfScorigamiTimes</span> <span class="o">=</span> <span class="n">numberOfPossibleUniqueTimes</span> <span class="o">-</span> <span class="n">numberOfUniqueTimes</span>
+<span class="n">percentOfScorigamis</span> <span class="o">=</span> <span class="n">numberOfUniqueTimes</span> <span class="o">/</span> <span class="n">numberOfPossibleUniqueTimes</span> <span class="o">*</span> <span class="mi">100</span>
+
+<span class="n">modalTime</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">solutions</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">mode</span><span class="p">())</span>
+<span class="n">frequencyTimes</span> <span class="o">=</span> <span class="n">solutions</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+
+<span class="c">#print(frequencyTimes)</span>
+
+<span class="n">timeFrequencySplits</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="mi">50</span><span class="p">]</span>
+<span class="n">timeFrequencySplitNames</span> <span class="o">=</span> <span class="p">[</span><span class="s">'1 Occurence'</span><span class="p">,</span> <span class="s">'2-10 Occurences'</span><span class="p">,</span> <span class="s">'11-20 Occurences'</span><span class="p">,</span> <span class="s">'21-30 Occurences'</span><span class="p">,</span> <span class="s">'31-40 Occurences'</span><span class="p">,</span> <span class="s">'41+ Occurences'</span><span class="p">]</span>
+<span class="n">frequencySplits</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">frequencyTimes</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:],</span> <span class="n">timeFrequencySplits</span><span class="p">,</span> <span class="n">right</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">timeFrequencySplitNames</span><span class="p">)</span>
+
+<span class="c"># print(frequencySplits)</span>
+
+<span class="c"># This is a little convoluted, but the premise is that I want to know how many solve times have only occurred once.</span>
+<span class="c"># Some times have occured 40+ times, so it's nice to know that too. This the distribution of the frequency of solve frequencies.</span>
+<span class="n">frequencyOfFrequencies</span> <span class="o">=</span> <span class="n">frequencySplits</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">sort</span> <span class="o">=</span> <span class="bp">False</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Between my best time of"</span><span class="p">,</span> <span class="n">bestTime</span><span class="p">,</span> <span class="s">"s and my worst time of"</span><span class="p">,</span> <span class="n">worstTime</span><span class="p">,</span> <span class="s">"s, there are"</span><span class="p">,</span> <span class="n">numberOfPossibleUniqueTimes</span><span class="p">,</span> <span class="s">"possible unique times."</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Unique times are discretely measured in units of 0.01s. One term used to describe specific rare instances of a score is scorigami, invented by Jon Bois."</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"I have achieved"</span><span class="p">,</span> <span class="n">numberOfUniqueTimes</span><span class="p">,</span> <span class="s">"of them. This is"</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">percentOfScorigamis</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="s">"</span><span class="si">% </span><span class="s">of all possible scorigami times."</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"The time that appears the most frequently is"</span><span class="p">,</span> <span class="n">modalTime</span><span class="p">,</span> <span class="s">"s."</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"There are"</span><span class="p">,</span> <span class="n">frequencyOfFrequencies</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s">"times that occur only once. These are true scorigamis. They had never been done before and have not been achieved since."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Between my best time of 10.46 s and my worst time of 58.15 s, there are 4769 possible unique times.
+Unique times are discretely measured in units of 0.01s. One term used to describe specific rare instances of a score is scorigami, invented by Jon Bois.
+I have achieved 2245 of them. This is 47.07 % of all possible scorigami times.
+The time that appears the most frequently is 20.52 s.
+There are 601 times that occur only once. These are true scorigamis. They had never been done before and have not been achieved since.
+</code></pre></div></div>
+
+<h2 id="todo">TODO:</h2>
+<h3 id="progress-evaluator-for-ao5-12-100-etc-to-be-implemented">Progress evaluator for Ao5, 12, 100, etc.: To be implemented</h3>
+<h3 id="pb-tracker-in-progress-must-fix-x-axis-ticks">PB Tracker: In progress, must fix x axis ticks</h3>
+<h3 id="weekday-evaluator-to-be-implemented">Weekday Evaluator: To be implemented</h3>
+<h3 id="day-by-day-pbs-in-progress-must-fix-x-axis-ticks">Day-by-day PBs: In progress, must fix x axis ticks</h3>
+<h3 id="modal-time-done"><del>Modal time: Done!</del></h3>
+<h3 id="scorigami-times-ive-never-reached-ht-jon-bois-done"><del>Scorigami (times I’ve never reached, H/T Jon Bois): Done!</del></h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+        </div>
+        <p class="mt4">
+  Til next time,<br>
+  Joshua
+  <span class="silver">at 20:06</span>
+</p>
+<img src="http://localhost:4000/images/scribble3.png" alt="scribble" />
+
+      </main>
+      <section class="fixed-l mw7 center w-100 top-50 tc pb4 nt4">
+  
+    <a href="http://localhost:4000/posts/welcome-to-jekyll" class="no-underline f1 light-blue hover-silver nl5 fl-l ph3">‹</a>
+  
+  
+</section>
+    </div>
+    <footer class="mw7 center tc pt3 pb4 silver">
+      Built with Jekyll using <a href="http://github.com/muan/scribble" class="link silver hover-blue pv1">Scribble</a>.
+      <img src="http://localhost:4000/images/scribble2.png" alt="scribble" class="mt4 db center" />
+    </footer>
+  </body>
+</html>
