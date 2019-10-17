@@ -1,4 +1,7 @@
-
+---
+title: Cubing Data Analysis
+date: 2019-10-17 00:06:52
+---
 
 ```python
 import pandas as pd
