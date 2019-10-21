@@ -1,11 +1,10 @@
 ---
-title: About me
+title: About Me
 ---
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend.
+Hello! Thanks for stopping by. My name's Joshua. I'm an aerospace engineering student, Rubik's Cube solver, and general nerd. I enjoy cooking and baking all kinds of delicious food while listening to a variety of podcasts. I sometimes write collections of words that approximate logical trains of thought. I'm also personal friends with the Creator of the universe. He's very cool.
 
-`print("Hello World!")`
+## FAQ
 
-Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi.
-
-Find me on [GitHub](https://github.com/muan) or [Twitter](https://twitter.com/muanchiou).
+* What's your best advice for college students?
+	* Get a cast iron skillet. You can do everything with them: Cook gravy, fry potatoes, and bake apple pies. Use it as a doorstop. Use it against cockroaches.
