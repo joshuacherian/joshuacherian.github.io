@@ -7,4 +7,4 @@ Hello! Thanks for stopping by. My name's Joshua. I'm an aerospace engineering st
 ## FAQ
 
 * What's your best advice for college students?
-	* Get a cast iron skillet. You can do everything with them: Cook gravy, fry potatoes, and bake apple pies. Use it as a doorstop. Use it against cockroaches.
+	* Get a cast iron skillet. You can do everything with them: Cook gravy, fry potatoes, and bake apple pies. Use it as a doorstop. Use it against cockroaches. THE POSSIBILITIES ARE ENDLESS!
