@@ -21,7 +21,7 @@ My solution was to parse through the data and split the data based on date. Ever
 
 First, you'll notice that sub-60 times aren't visible. Rest assured, they are there! They simply vanished after the first few months of data from late 2016 into early 2017. You'll notice I rapidly improved over the first few years, but progress in 2019 has slowed. That's because as I get faster, the room for improvement shrinks. I have to optimize specific aspects of my solve that don't become immediately apparent. 
 
-Sub-20 times started arriving in 2017 but didn't become the majority of solves until early this year. As of this post, Roughly 75% of my solves are below 20 seconds. That's good enough for me to call myself sub-20! There are some significant peaks and valleys through the later part of this year, mostly due to the fact that I didn't have a ton of solves in those months and minor mistakes can very quickly look like unscalable peaks.
+Sub-20 times started arriving in 2017 but didn't become the majority of solves until early this year. As of this post, roughly 75% of my solves are below 20 seconds. That's good enough for me to call myself sub-20! There are some significant peaks and valleys through the later part of this year, mostly due to the fact that I didn't have a ton of solves in those months and minor mistakes can very quickly look like unscalable peaks.
 
 My favorite part of this graph is the blip of sub-15 times in 2018 turning into a noticeable chunk in 2019. Granted, they make up a small portion of the data, but they are there and they are growing! One of my biggest cubing goals is to confidently call myself sub-15. That means I expect to see what is a little notch now grow to dominate the rest of the graph. 
 
