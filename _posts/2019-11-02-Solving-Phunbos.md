@@ -10,7 +10,7 @@ So why not combine the two? Kenneth Brandon, a YouTuber/cuber under the handle R
 
 Step one is to select a planetary body as the basis for my model. I chose Phobos, the larger of Mars' two moons. I had a few reasons for doing so.
 
-- Any ordinary planet would be basically indistinguishable from another in a 3D print of this scale. All the other planets are basically spheres, so you would have few interesting features on the surface.
+- Any ordinary planet would be indistinguishable from another in a 3D print of this scale. All the other planets are basically spheres, so you would have few interesting features on the surface.
 - Phobos has a massive crater named Stickney that is incredibly interesting in its own right. But for our purposes, it's a unique feature that would be cool to render in a 3D model.
 - My senior design team is currently designing a mission to Phobos. It's a fascinating satellite that we don't know a lot about and I've grown to love it.
 - Phobos looks like a potato. Who doesn't like potatoes?
@@ -49,11 +49,11 @@ This is the fun part. The Aerospace Engineering department at Georgia Tech has i
 
 ![png](../images/Solving_Phunbos/Phobos_Print.png)
 
-I should note that my filleted corners were underwhelming, to say the least. If I repeated the process, I would make my fillets much larger than 3mm. This may take some trial and error, but I'm satisfied for now. The 2x2 cube arrived a few days after the print, which meant I had everything I needed to assemble the puzzle. The cube doesn't turn very well - understandable, given that it was built as a novelty keychain toy, not a speedcube. Loosening the tensions on the core helped, but it was still pretty rough. A friend provided some cube lubricant to help with the internal friction and I went back to the AE Maker Space in search of some super glue.
+I should note that my filleted corners were underwhelming, to say the least. If I repeated the process, I would make my fillets much larger than 3mm. This may take some trial and error, but I'm satisfied for now. The 2x2 cube arrived a few days after the print, which meant I had everything I needed to assemble the puzzle. The cube doesn't turn very well - understandable, given that it was built as a novelty keychain toy, not a speed cube. Loosening the tensions on the core helped, but it was still pretty rough. A friend provided some cube lubricant to help with the internal friction and I went back to the AE Maker Space in search of some super glue.
 
 ### Putting the Pieces Together
 
-Before I started gluing, I sanded each face of the cube down with some 220 grit sandpaper to help with adherance. Then a dot of glue went onto each face a given piece of the cube before applying the printed piece. 
+Before I started gluing, I sanded each face of the cube down with some 220 grit sandpaper to help with adherence. Then a dot of glue went onto each face a given piece of the cube before applying the printed piece. 
 
 ![png](../images/Solving_Phunbos/Phobos_Assembly.png)
 *Five pieces glued, three to go.*
@@ -70,6 +70,6 @@ Since the pieces aren't uniform, scrambling results in all kinds of strange shap
 
 ### Phinal Thoughts
 
-This was an enjoyable project. If I could have changed anything, it would have been to fillet the corners more. There's still a lot of catching so you have to make sure each piece is lined up perfectly before you rotate. Of course, this is more of a decorative piece than a competition-worthy speedcube, so I'm not terribly disappointed by it.
+This was an enjoyable project. If I could have changed anything, it would have been to fillet the corners more. There's still a lot of catching so you have to make sure each piece is lined up perfectly before you rotate. Of course, this is more of a decorative piece than a competition-worthy speed cube, so I'm not terribly disappointed by it.
 
 All in all, this was a cool project to work on! And since Phobos is such a dark and gloomy name, I hereby christen my new puzzle "Phunbos"!
