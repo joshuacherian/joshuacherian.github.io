@@ -1,5 +1,5 @@
 ---
-title: Sounds About Right: My Favorite Podcasts
+title: Sounds About Right&#58; My Favorite Podcasts
 date: 2019-11-29 11:35:00
 ---
 When I write a personal rendition of *My Favorite Things*, podcasts will inevitably be on the list. I listen to them while walking to class, cooking, washing dishes, solving Rubik's cubes...you get the idea. When executed well, they can transport you to a new world, make you think deeply about a novel idea, or even change your perspective on a topic you thought you knew all about. My feed ranges from economics to theology to design, so you'll probably find something worth listening to on the list.
