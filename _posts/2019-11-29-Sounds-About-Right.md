@@ -55,8 +55,8 @@ I should note that I don't listen to every episode of these shows. There are man
 A chill-inducing, jaw-dropping retelling of the final approach of the Apollo 11 mission. Released in the weeks leading up to the 50th anniversary of the first moon landing, *13 Minutes to the Moon* tells you the stories behind THE story.
 
 ### Listen to This:
--[Kids in control](https://overcast.fm/+RkpqaSRJk): The kids who made the moon landing possible.
--[The 13 minutes](https://overcast.fm/+RkpqPEEn0): The actual CapCom feed from the final minutes of the July 20, 1969 landing. You should only listen to this if you've heard the other 10 episodes first. 
+- [Kids in control](https://overcast.fm/+RkpqaSRJk): The kids who made the moon landing possible.
+- [The 13 minutes](https://overcast.fm/+RkpqPEEn0): The actual CapCom feed from the final minutes of the July 20, 1969 landing. You should only listen to this if you've heard the other 10 episodes first. 
 
 
 ## [99% Invisible](https://99percentinvisible.org/)
@@ -64,32 +64,32 @@ A chill-inducing, jaw-dropping retelling of the final approach of the Apollo 11 
 The single greatest podcast on design. Don't care about design? Listen to 99PI anyway. You will certainly care about design. They talk about everything from Los Angeles road signage to Spanish lotteries to British nautical reports to Canadian basketball jerseys to beekeeping. This is easily one of my all-time favorites and I can't say enough good things about it.
 
 ### Listen to This:
--[New Jersey](https://overcast.fm/+DCmXPIw): The beauty of the Brazilian soccer jersey, and how its design transcended even international borders.
--[In the Same Ballpark](https://overcast.fm/+DDWSdro): I don't even like baseball, but this episode on stadium design is fascinating.
--[La Sagrada Familia](https://overcast.fm/+DDWgge8): The story of an architect's unfinished Gothic cathedral...from the 20th century.
+- [New Jersey](https://overcast.fm/+DCmXPIw): The beauty of the Brazilian soccer jersey, and how its design transcended even international borders.
+- [In the Same Ballpark](https://overcast.fm/+DDWSdro): I don't even like baseball, but this episode on stadium design is fascinating.
+- [La Sagrada Familia](https://overcast.fm/+DDWgge8): The story of an architect's unfinished Gothic cathedral...from the 20th century.
 
 ## [Between the Grooves](https://www.faithstrongtoday.com/betweenthegrooves)
 
 A podcast discussing the Christian music industry and interviewing Christian artists. A niche genre, perhaps, but a fantastic listen nonetheless. 
 
 ### Listen to This:
--[Do Great Art and Be Found Faithful with Nicole C. Mullen](https://overcast.fm/+I6p5NX9Ko): If you've never heard Nicole C. Mullen's music, you're missing out. This episode goes beyond the music and into the heart with some incredible wisdom for anyone who interacts with Christian music on any level.
+- [Do Great Art and Be Found Faithful with Nicole C. Mullen](https://overcast.fm/+I6p5NX9Ko): If you've never heard Nicole C. Mullen's music, you're missing out. This episode goes beyond the music and into the heart with some incredible wisdom for anyone who interacts with Christian music on any level.
 
 ## [The Bible Project](https://thebibleproject.com/)
 
 A Bible nerd and a storyteller discuss the greatest book ever written. TBP makes incredible videos walking you through different books of the Bible, themes, and central ideas that make the Bible "a unified story that leads to Jesus." The podcast is the collection of discussions that eventually culminated in these videos. If you were raised in the church, they have an uncanny knack for revealing new truths in texts you've read a million times before. If you've never read the Bible before, they walk through the Bible at a level anyone can understand. If I could only listen to one Bible-focused podcast for the rest of my life, it would probably be this one.
 
 ### Listen to This:
--[The Exile and the Wisdom Warrior](https://overcast.fm/+InpLs-kKk): This one is my favorite for deeply personal reasons. It's a clarion call to a new way of life.
--[The Snake in the Throne Room](https://overcast.fm/+InpL-sHFc): This series on the Son of Man had me convinced I had never read the book of Genesis. 
--[Power Over the Snake](https://overcast.fm/+InpIAYJHg): "Son of Man" was the title Jesus used most frequently to describe Himself. He came to finish what humanity could not.
+- [The Exile and the Wisdom Warrior](https://overcast.fm/+InpLs-kKk): This one is my favorite for deeply personal reasons. It's a clarion call to a new way of life.
+- [The Snake in the Throne Room](https://overcast.fm/+InpL-sHFc): This series on the Son of Man had me convinced I had never read the book of Genesis. 
+- [Power Over the Snake](https://overcast.fm/+InpIAYJHg): "Son of Man" was the title Jesus used most frequently to describe Himself. He came to finish what humanity could not.
 
 ## [Kris Vallotton](https://www.krisvallotton.com/)
 
 This guy is nuts. Kris communicates the Bible like no one else I know. He's funny, thought-provoking, and convicts deeply. I re-listen to these episodes regularly.
 
 ### Listen to This:
--[Secrets to a Great Marriage](https://overcast.fm/+Cgw5CUKk): Are you married? Listen to this? Are you unmarried? Listen to this. I played this one 3 times over within 24 hours of hearing it.
+- [Secrets to a Great Marriage](https://overcast.fm/+Cgw5CUKk): Are you married? Listen to this? Are you unmarried? Listen to this. I played this one 3 times over within 24 hours of hearing it.
 
 ## [the memory palace](http://thememorypalace.us/)
 
@@ -103,26 +103,26 @@ Some of the best short stories about history you'll never find in a textbook, co
 Sermons from the ATL and Washington D.C. Louie Giglio has been around for a while, spearheading the Passion Conference movement, and Ben Stuart, one of my favorite communicators, is carrying the torch in the nation's capital.
 
 ### Listen to This:
--[The Restoration of Peter](https://overcast.fm/+FoSL-Y3ec): A powerful look at the betrayal and redemption of one of the most vocal disciples in the gospels. Ben Stuart shows us the Peter inside us all.
--[The Sovereignty of God in the Chaos of Christmas](https://overcast.fm/+FoSIiZvWg): The greatest Christmas message ever told. I listen to this at least annually (mostly during the holidays, but I've been known to play it in May as well). Louie Giglio deconstructs the context of the Christmas story in a way you've never heard before but desperately need in your life.
+- [The Restoration of Peter](https://overcast.fm/+FoSL-Y3ec): A powerful look at the betrayal and redemption of one of the most vocal disciples in the gospels. Ben Stuart shows us the Peter inside us all.
+- [The Sovereignty of God in the Chaos of Christmas](https://overcast.fm/+FoSIiZvWg): The greatest Christmas message ever told. I listen to this at least annually (mostly during the holidays, but I've been known to play it in May as well). Louie Giglio deconstructs the context of the Christmas story in a way you've never heard before but desperately need in your life.
 
 ## [Planet Money](https://www.npr.org/sections/money/)
 
 Funny, interesting stories on the economy in America and beyond. If you've never cared about helium harvesting or Venmo refunds, now you will! 
 
 ### Listen to This:
--[We're Going to Space](https://overcast.fm/+HuIhCkYqU): The intersection of economics and space. I love this so much.
--[Wait, Why Are We Going to Space?](https://overcast.fm/+HuIge-Wm0): You generally need a good reason to go to space. This isn't a trip to Walmart, after all. 
--[Rocket Shopping](https://overcast.fm/+HuIgOW7gE): Step 1: Find a satellite. Done. Step 2: Find a launch vehicle.
--[3 2 1](https://overcast.fm/+HuIg-rNBs): The countdown. The launch. The space nerd inside of me rejoices.
--[Why The Price of Coke Didn't Change For 70 years](https://overcast.fm/+HuIicDKPc): The title made me say, "Wait, really?" The story made me say, "Wow." A fascinating look at the world's most famous beverage.
+- [We're Going to Space](https://overcast.fm/+HuIhCkYqU): The intersection of economics and space. I love this so much.
+- [Wait, Why Are We Going to Space?](https://overcast.fm/+HuIge-Wm0): You generally need a good reason to go to space. This isn't a trip to Walmart, after all. 
+- [Rocket Shopping](https://overcast.fm/+HuIgOW7gE): Step 1: Find a satellite. Done. Step 2: Find a launch vehicle.
+- [3 2 1](https://overcast.fm/+HuIg-rNBs): The countdown. The launch. The space nerd inside of me rejoices.
+- [Why The Price of Coke Didn't Change For 70 years](https://overcast.fm/+HuIicDKPc): The title made me say, "Wait, really?" The story made me say, "Wow." A fascinating look at the world's most famous beverage.
 
 ## [The Sleeping At Last Podcast](https://sleepingatlast.podbean.com/)
 
 Have you ever listened to a song and wondered, "How did they make that?" Ryan O'Neal answers all of those questions about the music he produces under the name Sleeping At Last. I've always loved this concept for a podcast and Ryan knocks it out of the park. Updates are spotty because of the nature of music production, but man, the wait is worth it.
 
 ### Listen to This:
--[August 21, 2017: Total Solar Eclipse](https://overcast.fm/+OHH8fBcwk): Ryan O'Neal is just as much of a space nerd as I am and has been making music dedicated to various astronomical events. In this one, he scores the first solar eclipse over the United States in almost 40 years. An amazing behind-the-scenes look that leaves you with a deep appreciation for artists and the heart they pour into their art.
+- [August 21, 2017: Total Solar Eclipse](https://overcast.fm/+OHH8fBcwk): Ryan O'Neal is just as much of a space nerd as I am and has been making music dedicated to various astronomical events. In this one, he scores the first solar eclipse over the United States in almost 40 years. An amazing behind-the-scenes look that leaves you with a deep appreciation for artists and the heart they pour into their art.
 
 
 ## [Twenty Thousand Hertz](https://www.20k.org/)
@@ -130,8 +130,8 @@ Have you ever listened to a song and wondered, "How did they make that?" Ryan O'
 Named after the upper limit of the human hearing range, 20K tells the stories of the sounds we hear. Yes, it's very meta, but it's so well done. 
 
 ### Listen to This:
--[Space](https://overcast.fm/+HhScw4Ppk): Yet another podcast about space. Are you surprised? But wait, there's no sound in space...or is there? 
--[Sonic Seasoning](https://overcast.fm/+HhSe3hEII): A surprising look at the connection between sound and taste. You should probably listen to this one with some chocolate handy.
+- [Space](https://overcast.fm/+HhScw4Ppk): Yet another podcast about space. Are you surprised? But wait, there's no sound in space...or is there? 
+- [Sonic Seasoning](https://overcast.fm/+HhSe3hEII): A surprising look at the connection between sound and taste. You should probably listen to this one with some chocolate handy.
 
 # Conclusion
 
