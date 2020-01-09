@@ -89,7 +89,7 @@ A Bible nerd and a storyteller discuss the greatest book ever written. TBP makes
 This guy is nuts. Kris communicates the Bible like no one else I know. He's funny, thought-provoking, and convicts deeply. I re-listen to these episodes regularly.
 
 ### Listen to This:
-- [Secrets to a Great Marriage](https://overcast.fm/+Cgw5CUKk): Are you married? Listen to this? Are you unmarried? Listen to this. I played this one 3 times over within 24 hours of hearing it.
+- [Secrets to a Great Marriage](https://overcast.fm/+Cgw5CUKk): Are you married? Listen to this. Are you unmarried? Listen to this. I played this one 3 times over within 24 hours of hearing it.
 
 ## [the memory palace](http://thememorypalace.us/)
 
