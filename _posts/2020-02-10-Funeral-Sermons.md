@@ -1,6 +1,6 @@
 ---
 title: Funeral Sermons
-date: 2020-02-19 00:16:51
+date: 2020-02-10 00:19:10
 ---
 A few Sundays ago, I found myself talking to a friend at church who happens to be in seminary. She told me about her current assignment: write a funeral sermon for someone you know. It was an unusual but valuable task. How do you distill a person's life into a handful of pages or present their biography in twenty minutes? She told me a little of what she was writing about, but the concept stuck with me. After service was over, I went home to continue with my day. I was enjoying a late lunch when a notification popped up on my phone. It was just a handful of words, but they stopped everything I was doing.
 
