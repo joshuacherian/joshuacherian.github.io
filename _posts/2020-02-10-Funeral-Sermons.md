@@ -37,14 +37,14 @@ In the days following Kobe's death, I got to glimpse just how powerful his life 
 
 I began thinking through all the things I am passionate about or good at. I've talked about some of those things on this blog before: cubing and cooking and cast iron skillets come to mind. But I don't want any of those things on my gravestone. At the end of all days, here's what I want people to remember.
 
-I want to be known as someone who loved. I want every person I speak with to leave the encounter knowing that they talked with someone who cared. I want to be known as someone who engaged with the deepest parts of a person's heart, with the things that truly mattered.
+- I want to be known as someone who loved. I want every person I speak with to leave the encounter knowing that they talked with someone who cared. I want to be known as someone who engaged with the deepest parts of a person's heart, with the things that truly mattered.
 
-I want to be remembered as someone who finished well. I don't want people to point to a long list of accomplishments but to a fundamental, lifelong character trait. I want people to know that I was faithful in the little things and the big things until the very end.
+- I want to be remembered as someone who finished well. I don't want people to point to a long list of accomplishments but to a fundamental, lifelong character trait. I want people to know that I was faithful in the little things and the big things until the very end.
 
-I want to be defined by my friendship with God. I want it to color every aspect of my existence. I want to live like the Creator knows me. And in the same breath, I want to be marked by my unquestioning obedience to my God.
+- I want to be defined by my friendship with God. I want it to color every aspect of my existence. I want to live like the Creator knows me. And in the same breath, I want to be marked by my unquestioning obedience to my God.
 
 It's one thing to say "This I would most want to be known for." It's an entirely different matter to live it out. I read an interesting observation once: People celebrate when someone made a small, consistent effort twenty years ago that resulted in a payoff today; no one thinks they can make a small, consistent change today that will bear fruit in twenty years.
 
 Remember the man on the street corner? The one who preached the gospel and led my grandfather to Jesus? We don't know who he was, not even his name. Like I said before, he was a complete stranger. Does he know the fruits of labor? Does he know that because of his faithfulness, Jesus has been passed down through three generations of my family? Does he know that people 9,000 miles away have been directly impacted because of the message he preached? Maybe. Maybe not. I don't know if he's even still alive. What I do know is that his obedience over sixty years ago has shaped my life. 
 
-This is the life I want to live. I don't care if my name is ever remembered, but if it is, I want it to be known for more than a career or a hobby. If people think of me a century after I'm gone, let it be because they saw Jesus. I want the pages of my life today to write the greatest funeral sermon ever written. 
+This is the life I want to live. I don't care if my name is ever remembered, but if it is, I want it to be known for more than a career or a hobby. If people think of me a century after I'm gone, let it be because they saw Jesus. I want the pages of my life today to write the greatest funeral sermon ever written.
