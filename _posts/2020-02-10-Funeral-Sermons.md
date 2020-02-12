@@ -2,7 +2,7 @@
 title: Funeral Sermons
 date: 2020-02-10 00:19:10
 ---
-A few Sundays ago, I found myself talking to a friend at church who happens to be in seminary. She told me about her current assignment: write a funeral sermon for someone you know. It was an unusual but valuable task. How do you distill a person's life into a handful of pages or present their biography in twenty minutes? She told me a little of what she was writing about, but the concept stuck with me. After service was over, I went home to continue with my day. I was enjoying a late lunch when a notification popped up on my phone. It was just a handful of words, but they stopped everything I was doing.
+A few Sundays ago, I found myself talking to a friend at church who happens to be in seminary. She told me about her current assignment: write a funeral sermon for someone you know. It was an unusual but valuable task. How do you distill what truly mattered about a person's life into a handful of pages? How do you convey hope in grief, rebirth in death, all in maybe twenty minutes? She told me a little of what she was writing about, but the concept stuck with me. After service was over, I went home to continue with my day. I was enjoying a late lunch when a notification popped up on my phone. It was just a handful of words, but they stopped everything I was doing.
 
 Kobe Bryant. Dead. Helicopter crash.
 
@@ -20,6 +20,8 @@ After he retired, the league was different. Tim Duncan retired at the end of tha
 The day Kobe died, the emotion that dominated everyone's reaction was shock. The world reacted in pain. I was sitting in my room, grieving the death of a man I never knew. Dozens of basketball players began tweeting and the sentiment was the same everywhere: *this can't be true*. The news continued to pour in and it just got worse. Kobe's daughter was onboard along with 7 others who all perished in the wreck.
 
 The tributes began pouring in immediately. I didn't buy a wreath or travel to mourn outside a stadium, although many did. Hundreds gathered outside the Staples Center to remember the man who dazzled that arena night after night. Games were still scheduled across the league that couldn't be cancelled, although rumors floated that the possibility hung in the air. Teams alternated the first possessions of the game by taking backcourt violations (8 seconds) and shot clock violations (24 seconds) in a fitting memorial to Kobe's two numbers. It didn't matter which teams were playing, stadiums were filled with yellow jerseys and fans chanting, "Kobe! Kobe!" Players openly wept on court.
+
+I received a voicemail that evening from a number I didn't know. The voice sounded like a young child calling an older family member. The audio was fuzzy and broken; I was about to delete it until I heard a few words. His daughter, the one who played basketball...helicopter crash...on their way to a game. For a brief moment, I was connected with a stranger, bonding over a loss that neither of us were attached to directly but were both deeply feeling the effects of.
 
 My favorite tribute, though, was outside the Lakers' arena in Los Angeles. It was a small, ordinary trashcan set up in the plaza. To the outside was taped a sheet of paper that read: "#SayKobe. You know what to do." Soon, the basket was overflowing with wads of paper, each one launched with Bryant's name passing over the lips of the shooter.
 
