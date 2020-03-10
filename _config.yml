@@ -20,4 +20,5 @@ permalink:        /posts/:title
 defaults:
   - values:
       layout: "default"
-      future: false
+      future: true
+      show_drafts: false
