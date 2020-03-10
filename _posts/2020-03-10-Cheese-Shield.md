@@ -1,6 +1,6 @@
 ---
 title: Cheese Shield&#58; A User's Guide to Aerobraking with Dairy
-date: 2020-03-14 00:09:47
+date: 2020-03-10 00:17:41
 ---
 
 Have you ever wondered what would happen if a spacecraft returning to Earth attempted to replace its heat shield with an equally protective layer of cheese? Have you ever pondered how much cheese would even be necessary for such a task, or what cheese would perform the best under these circumstances? Then you've come to the right place! 
