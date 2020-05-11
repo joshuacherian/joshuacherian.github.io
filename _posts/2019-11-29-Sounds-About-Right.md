@@ -132,6 +132,8 @@ Named after the upper limit of the human hearing range, 20K tells the stories of
 ### Listen to This:
 - [Space](https://overcast.fm/+HhScw4Ppk): Yet another podcast about space. Are you surprised? But wait, there's no sound in space...or is there? 
 - [Sonic Seasoning](https://overcast.fm/+HhSe3hEII): A surprising look at the connection between sound and taste. You should probably listen to this one with some chocolate handy.
+- [Ehh... What's Up, Doc?](https://overcast.fm/+HhSeT22gg): Part one of two on Mel Blanc, the voice behind the most beloved cartoons of the 20th century.
+- [That's All Folks!](https://overcast.fm/+HhSf9jTG0): Mel Blanc was the voice behind Bugs, Daffy, and more. This is second of two parts on his life and work.
 
 # Conclusion
 
