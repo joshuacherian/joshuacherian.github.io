@@ -14,6 +14,7 @@ I'm dividing this guide into pre-launch and post-launch sections. At the beginni
 Click [here](#pre-launch) for pre-launch and [here](#post-launch) for post-launch.
 ---
 ## Pre-Launch
+
 | Time (Eastern) | Countdown Time (hr:min:sec) | Event                                                                     |
 |----------------|-----------------------------|---------------------------------------------------------------------------|
 | 11:33:34 AM    | T-04:59:59                  | [IMU Alignment](#imu-alignment-t-045959)                                  |
@@ -98,6 +99,7 @@ The engines are ignited 3 seconds before liftoff. A clamp holds the rocket in pl
 
 ---
 ## Post-Launch
+
 | Time (Eastern) | Countdown Time (hr:min:sec) | Event                                                                     |
 |----------------|-----------------------------|---------------------------------------------------------------------------|
 | 4:34:31        | T+00:00:58                  | [Max Q](#max-q-t000058)                                  |
