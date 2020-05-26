@@ -18,7 +18,7 @@ Click [here](#pre-launch) for pre-launch and [here](#post-launch) for post-launc
 I've written short explanations for some of the events; click the links or scroll down below the table for explanations.
 
 | Time (Eastern) | Countdown Time (hr:min:sec) | Event                                                                                                     |
-|----------------|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+|:---------------|:---------------------------:|----------------------------------------------------------------------------------------------------------:|
 | 11:33:34 AM    | T-04:59:59                  | [IMU Alignment](#imu-alignment-t-045959)                                                                  |
 | 12:03:33 PM    | T-04:30:00                  | [RCS/Abort Fuel Pressurization](#rcsabort-motors-fuel-pressurization-t-043030)                            |
 | 12:18:33       | T-04:15:00                  | Crew weather briefing                                                                                     |
