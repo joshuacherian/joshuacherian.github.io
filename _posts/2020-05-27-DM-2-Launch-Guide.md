@@ -9,11 +9,13 @@ But today, history repeats itself. Doug Hurley will launch as commander of SpX-D
 
 My friend group is, unsurprisingly, made up of many non-space nerds. They know that I am absurdly excited for this mission but not necessarily all the details. So, I decided to write a guide for today's launch activities. I'm also including a few "Easter eggs" to keep an eye out for! A lot of this guide is taken from Everyday Astronaut, one of the best voices on the internet for all things space. [His guide](https://everydayastronaut.com/crew-dragon-timeline/) details many of the major events that will take place before and during the launch. Make sure to tune into his [YouTube channel](https://www.youtube.com/channel/UC6uKrU_WqJ1R2HMTY3LIx5Q) for a live stream of the launch!
 
-I'm dividing this guide into pre-launch and post-launch sections. At the beginning of each section is a summary table with a short description of what's happening, as well as what time it should be happening. I've written short explanations for some of the events; click the event in the table to jump to its explanation below. (NOTE: Launch time is subject to change! The countdown times should remain constant relative to launch at T-0, however.)
+I'm dividing this guide into pre-launch and post-launch sections. At the beginning of each section is a summary table with a short description of what's happening, as well as what time it should be happening. (NOTE: Launch time is subject to change! The countdown times should remain constant relative to launch at T-0, however.)
 
 Click [here](#pre-launch) for pre-launch and [here](#post-launch) for post-launch.
 ---
 ## Pre-Launch
+
+I've written short explanations for some of the events; click the event in the table to jump to its explanation below.
 
 | Time (Eastern) | Countdown Time (hr:min:sec) | Event                                                                     |
 |----------------|-----------------------------|---------------------------------------------------------------------------|
@@ -99,6 +101,8 @@ The engines are ignited 3 seconds before liftoff. A clamp holds the rocket in pl
 
 ---
 ## Post-Launch
+
+We're on our way! Here's how we get to the ISS.
 
 | Time (Eastern) | Countdown Time (hr:min:sec) | Event                                                                     |
 |----------------|-----------------------------|---------------------------------------------------------------------------|
