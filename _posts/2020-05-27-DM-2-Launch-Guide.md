@@ -78,7 +78,7 @@ The astronauts arrive at the launchpad!
 The exact position (ephemera) of the ISS is entered into the Crew Dragon's computers. This will allow it to plot its course to the ISS.
 
 ### Pre-fuel Go/No-Go Poll (T-00:45:00)
-The flight director will ask each flight controller (communications, guidance, life support, etc.) to confirm that their subsystems are ready ("GO") or not ("NO GO") for launch. Any "NO GO" here will likely result in a scrub of the launch. All "GO"s will allow them to begin fuel-up procedures
+The flight director will ask each flight controller (communications, guidance, life support, etc.) to confirm that their subsystems are ready ("GO") or not ("NO GO") for launch. Any "NO GO" here will likely result in a scrub of the launch. All "GO"s will allow them to begin fuel-up procedures.
 
 ### Launch Abort System Armed (T-00:37:00)
 In the event of an emergency during fuel-up, the crew needs a way to quickly leave the launch pad. The launch abort system gives them the ability to quickly get away from the vehicle from now until well after launch.
