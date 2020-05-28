@@ -126,7 +126,7 @@ There are two major forces acting on the rocket as it rises: the force of the en
 ![png](../images/DM_2_Launch_Guide/DynamicPressureExample.png)
 
 ### MECO (T+00:02:30)
-A few events happen in rapid succession here. First, we have main engine cutoff (MECO), where the 9 Merlins on the first stage shut down. The 1st stage then separates and begins its descent back to earth while another five engines on the second stage light up and continue the journey.
+A few events happen in rapid succession here. First, we have main engine cutoff (MECO), where the 9 Merlins on the first stage shut down. The 1st stage then separates and begins its descent back to earth while another engine on the second stage light up and continue the journey.
 
 ### 1st Stage Reentry Burn (T+00:07:12)
 To keep itself from turning into a toasty ball of fire, the first stage will relight its engines to slow its descent through the atmosphere.
