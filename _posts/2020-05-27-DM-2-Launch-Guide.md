@@ -2,12 +2,13 @@
 title: DM-2 Launch Guide
 date: 2020-05-27 00:07:45
 ---
+### Update: 17 minutes before scheduled liftoff on the 27th, the launch was scrubbed due to weather. The next opportunity is on May 30 at 3:22:45 PM, and I've updated the timetables below to reflect that.
 
 When I was 12 years old, I watched the Space Shuttle Endeavour lift off on mission STS-127. It launched into a blue Florida sky before disappearing behind a layer of clouds, leaving me hooting and hollering on the ground near Cape Canaveral. Among the seven astronauts on board was Colonel Douglas G. Hurley on his first spaceflight. Hurley would also fly on STS-135, the final Shuttle mission.
 
-But today, history repeats itself. Doug Hurley will launch as commander of SpX-DM-2. Hurley and Colonel Bob Behnken will make up the first crewed mission to leave American soil in almost 9 years. Even more exciting is that the launch vehicle is a SpaceX Falcon 9, an important milestone in the future of commercial spaceflight. When they launch, I will be acting just like my twelve-year-old self — hooting, hollering, and interminably grinning.
+But now, history repeats itself. Doug Hurley will launch as commander of SpX-DM-2. Hurley and Colonel Bob Behnken will make up the first crewed mission to leave American soil in almost 9 years. Even more exciting is that the launch vehicle is a SpaceX Falcon 9, an important milestone in the future of commercial spaceflight. When they launch, I will be acting just like my twelve-year-old self — hooting, hollering, and interminably grinning.
 
-My friend group is, unsurprisingly, made up of many non-space nerds. They know that I am absurdly excited for this mission but not necessarily all the details. So, I decided to write a guide for today's launch activities. I'm also including a few "Easter eggs" to keep an eye out for! A lot of this guide is taken from Everyday Astronaut, one of the best voices on the internet for all things space. [His guide](https://everydayastronaut.com/crew-dragon-timeline/) details many of the major events that will take place before and during the launch. Make sure to tune into his [YouTube channel](https://www.youtube.com/channel/UC6uKrU_WqJ1R2HMTY3LIx5Q) for a live stream of the launch!
+My friend group is, unsurprisingly, made up of many non-space nerds. They know that I am absurdly excited for this mission but not necessarily all the details. So, I decided to write a guide for DM-2's launch activities. I'm also including a few "Easter eggs" to keep an eye out for! A lot of this guide is taken from Everyday Astronaut, one of the best voices on the internet for all things space. [His guide](https://everydayastronaut.com/crew-dragon-timeline/) details many of the major events that will take place before and during the launch. Make sure to tune into his [YouTube channel](https://www.youtube.com/channel/UC6uKrU_WqJ1R2HMTY3LIx5Q) for a live stream of the launch!
 
 I'm dividing this guide into pre-launch and post-launch sections. At the beginning of each section is a summary table with a short description of what's happening, as well as what time it should be happening. (NOTE: Launch time is subject to change! I will update this page if I receive new information. The countdown times should remain constant relative to launch at T-0, however.)
 
@@ -21,32 +22,32 @@ I've written short explanations for some of the events; click the links or scrol
 
 | Time (Eastern) | Countdown Time (hr:min:sec) | Event                                                                                                     |
 |:---------------|:---------------------------:|----------------------------------------------------------------------------------------------------------:|
-| 11:33:34 AM    | T-04:59:59                  | [IMU Alignment](#imu-alignment-t-045959)                                                                  |
-| 12:03:33 PM    | T-04:30:00                  | [RCS/Abort Fuel Pressurization](#rcsabort-motors-fuel-pressurization-t-043030)                            |
-| 12:18:33       | T-04:15:00                  | Crew weather briefing                                                                                     |
-| 12:28:33       | T-04:05:00                  | [Crew handoff](#crew-handoff-t-040500)                                                                    |
-| 12:33:33       | T-04:00:00                  | [Suit up begins](#suit-up-t-040000)                                                                       |
-| 1:11:33        | T-03:22:00                  | Checkout complete                                                                                         |
-| 1:18:33        | T-03:15:00                  | [Depart for 39A](#depart-for-39a-t-031500)                                                                |
-| 1:38:33        | T-02:55:00                  | [Arrive at 39A](#arrive-at-39a-t-031500)                                                                  |
-| 1:53:33        | T-02:40:00                  | Crew Access Arm Arrival                                                                                   |
-| 1:58:33        | T-02:35:00                  | Enter Crew Dragon capsule                                                                                 |
-| 2:13:33        | T-02:20:00                  | Comms check                                                                                               |
-| 2:18:33        | T-02:15:00                  | Seat rotation                                                                                             |
-| 2:19:33        | T-02:14:00                  | Suit check                                                                                                |
-| 2:38:33        | T-01:55:00                  | Hatch closes/ground support leaves                                                            |
-| 3:23:33        | T-01:10:00                  | [ISS ephemera upload](#iss-ephemera-upload-t-011000)                                                      |
-| 3:48:33        | T-00:45:00                  | [Pre-fuel go/no-go poll](#pre-fuel-gono-go-poll-t-004500)                                                 |
-| 3:51:33        | T-00:42:00                  | Crew Access Arm retracts                                                                                  |
-| 3:56:33        | T-00:37:00                  | [Launch abort system armed](#launch-abort-system-armed-t-003700)                                          |
-| 3:58:33        | T-00:35:00                  | [RP-1 (1st/2nd) and LOx (1st) loading begins](#rp-1-1st2nd-and-lox-1st-loading-begins-t-003700)           |
-| 4:17:33        | T-00:16:00                  | LOx (2nd) loading begins                                                                                  |
-| 4:26:33        | T-00:07:00                  | [Engine chill begins](#engine-chill-begins-t-000700)                                                      |
-| 4:28:33        | T-00:05:00                  | Crew Dragon transitions to internal power                                                                 |
-| 4:32:33        | T-00:01:00                  | [Pre-launch checks/prop tanks pressurized](#pre-launch-checksprop-tank-pressurizationt-000100) |
-| 4:32:49        | T-00:00:45                  | Flight Director verifies "GO" for launch                                                                  |
-| 4:33:30        | T-00:00:03                  | [Ignition sequence start](#ignition-sequence-start-t-000003)                                              |
-| 4:33:33        | T-00:00:00                  | LIFTOFF!                                                                                                  |
+| 10:22:46 AM    | T-04:59:59                  | [IMU Alignment](#imu-alignment-t-045959)                                                                  |
+| 10:52:45       | T-04:30:00                  | [RCS/Abort Fuel Pressurization](#rcsabort-motors-fuel-pressurization-t-043030)                            |
+| 11:07:45       | T-04:15:00                  | Crew weather briefing                                                                                     |
+| 11:17:45       | T-04:05:00                  | [Crew handoff](#crew-handoff-t-040500)                                                                    |
+| 11:22:45       | T-04:00:00                  | [Suit up begins](#suit-up-t-040000)                                                                       |
+| 12:00:45 PM    | T-03:22:00                  | Checkout complete                                                                                         |
+| 12:07:45       | T-03:15:00                  | [Depart for 39A](#depart-for-39a-t-031500)                                                                |
+| 12:27:45       | T-02:55:00                  | [Arrive at 39A](#arrive-at-39a-t-031500)                                                                  |
+| 12:42:45       | T-02:40:00                  | Crew Access Arm Arrival                                                                                   |
+| 12:47:45       | T-02:35:00                  | Enter Crew Dragon capsule                                                                                 |
+| 1:02:45        | T-02:20:00                  | Comms check                                                                                               |
+| 1:07:45        | T-02:15:00                  | Seat rotation                                                                                             |
+| 1:08:45        | T-02:14:00                  | Suit check                                                                                                |
+| 1:27:45        | T-01:55:00                  | Hatch closes/ground support leaves                                                            |
+| 2:12:45        | T-01:10:00                  | [ISS ephemera upload](#iss-ephemera-upload-t-011000)                                                      |
+| 2:37:45        | T-00:45:00                  | [Pre-fuel go/no-go poll](#pre-fuel-gono-go-poll-t-004500)                                                 |
+| 2:40:45        | T-00:42:00                  | Crew Access Arm retracts                                                                                  |
+| 2:45:45        | T-00:37:00                  | [Launch abort system armed](#launch-abort-system-armed-t-003700)                                          |
+| 2:47:45        | T-00:35:00                  | [RP-1 (1st/2nd) and LOx (1st) loading begins](#rp-1-1st2nd-and-lox-1st-loading-begins-t-003700)           |
+| 3:06:45        | T-00:16:00                  | LOx (2nd) loading begins                                                                                  |
+| 3:15:45        | T-00:07:00                  | [Engine chill begins](#engine-chill-begins-t-000700)                                                      |
+| 3:17:45        | T-00:05:00                  | Crew Dragon transitions to internal power                                                                 |
+| 3:21:45        | T-00:01:00                  | [Pre-launch checks/prop tanks pressurized](#pre-launch-checksprop-tank-pressurizationt-000100) |
+| 3:22:01        | T-00:00:45                  | Flight Director verifies "GO" for launch                                                                  |
+| 3:22:42        | T-00:00:03                  | [Ignition sequence start](#ignition-sequence-start-t-000003)                                              |
+| 3:22:45        | T-00:00:00                  | LIFTOFF!                                                                                                  |
 
 ### IMU Alignment (T-04:59:59)
 The inertial measurement unit, or IMU, is a device that tells the spacecraft where it is, which way it's pointing, and where it's headed. Think of it like a GPS for rockets. For redundancy, there will be more than one IMU onboard. It's important that these are functioning; a Russian Proton rocket once had three angular velocity sensors installed UPSIDE DOWN. As you can imagine, [it did not turn out well](https://youtu.be/WlQH3MHhm0Y?t=1169).
@@ -108,16 +109,16 @@ We're on our way! Here's how we get to the ISS.
 
 | Time (Eastern)          | Countdown Time (hr:min:sec) | Event                                                                     |
 |:------------------------|:---------------------------:|--------------------------------------------------------------------------:|
-| 4:34:31                 | T+00:00:58                  | [Max Q](#max-q-t000058)                                                   |
-| 4:34:03                 | T+00:02:30                  | [MECO](#meco-t000230)                                                     |
-| 4:36:07                 | T+00:02:34                  | Stage separation                                                          |
-| 4:36:09                 | T+00:02:36                  | 2nd stage startup                                                         |
-| 4:40:45                 | T+00:07:12                  | [1st stage reentry burn](#1st-stage-reentry-burn-t000712)                 |
-| 4:42:16                 | T+00:08:43                  | SECO                                                                      |
-| 4:42:18                 | T+00:08:45                  | [1st stage landing burn begins](#arrive-at-39a-t-031500)                  |
-| 4:42:42                 | T+00:09:09                  | 1st stage lands                                                           |
-| 4:45:33                 | T+00:12:00                  | [2nd stage separation](#2nd-stage-separation-t001200)                     |
-| ~10:30 AM (5/28)        | ~T+18:00:00                 | ISS Docking                                                               |
+| 3:23:43                 | T+00:00:58                  | [Max Q](#max-q-t000058)                                                   |
+| 3:23:15                 | T+00:02:30                  | [MECO](#meco-t000230)                                                     |
+| 3:25:19                 | T+00:02:34                  | Stage separation                                                          |
+| 3:25:21                 | T+00:02:36                  | 2nd stage startup                                                         |
+| 3:29:57                 | T+00:07:12                  | [1st stage reentry burn](#1st-stage-reentry-burn-t000712)                 |
+| 3:31:28                 | T+00:08:43                  | SECO                                                                      |
+| 3:31:30                 | T+00:08:45                  | [1st stage landing burn begins](#arrive-at-39a-t-031500)                  |
+| 3:31:54                 | T+00:09:09                  | 1st stage lands                                                           |
+| 3:34:45                 | T+00:12:00                  | [2nd stage separation](#2nd-stage-separation-t001200)                     |
+| ~9:30 AM (5/31)         | ~T+18:00:00                 | ISS Docking                                                               |
 
 ### Max Q (T+00:00:58)
 There are two major forces acting on the rocket as it rises: the force of the engines pushing it up and the force of the atmosphere pushing it down. This combination is called "dynamic pressure", associated with the variable "q". Max Q is when dynamic pressure is at its greatest on the rocket. There haven't been any major failures at max q in recent history, but this is still an important milestone. The graph below is an example of how dynamic pressure changes as a rocket ascends (this was originally done for a homework assignment).
