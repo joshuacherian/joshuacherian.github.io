@@ -98,7 +98,7 @@ The checks that need to happen now will occur too fast for humans to handle, so 
 In a very, very small nutshell, here's how to make a rocket engine work well: take fuel at high pressure/low temperature and spit it out at low pressure/high temperature. This maximizes the amount of energy you get from the fuel and oxidizer. This is why cryogenic liquid oxygen is used and why the tanks are now pressurized to almost 3 times atmospheric pressure!
 
 ### Ignition Sequence Start (T-00:00:03)
-The engines are ignited 3 seconds before liftoff. A clamp holds the rocket in place to make sure all nine Merlin engines one the first stage are properly functioning.
+The engines are ignited 3 seconds before liftoff. A clamp holds the rocket in place to make sure all nine Merlin engines on the first stage are properly functioning.
 
 **Easter Egg**: The Merlin engines are so powerful, the first stage could have one (or maybe two) engines fail and still get the astronauts to space.
 
@@ -126,7 +126,7 @@ There are two major forces acting on the rocket as it rises: the force of the en
 ![png](../images/DM_2_Launch_Guide/DynamicPressureExample.png)
 
 ### MECO (T+00:02:30)
-A few events happen in rapid succession here. First, we have main engine cutoff (MECO), where the 9 Merlins on the first stage shut down. The 1st stage then separates and begins its descent back to earth while another engine on the second stage light up and continue the journey.
+A few events happen in rapid succession here. First, we have main engine cutoff (MECO), where the 9 Merlins on the first stage shut down. The first stage then separates and begins its descent back to earth while another engine on the second stage lights up and continue the journey.
 
 ### 1st Stage Reentry Burn (T+00:07:12)
 To keep itself from turning into a toasty ball of fire, the first stage will relight its engines to slow its descent through the atmosphere.
@@ -137,6 +137,8 @@ SpaceX will attempt to land the first stage on a drone ship (named Of Course I S
 **Easter Egg**: This landing burn is also affectionately known as a "hoverslam".
 
 ### 2nd Stage Separation (T+00:12:00)
-The second stage engines will separate from the Crew Dragon capsule, which will continue its journey on to the ISS. There will be live coverage of the docking about 18 hours later.
+The second stage engine will separate from the Crew Dragon capsule, which will continue on its journey to the ISS. There will be live coverage of the docking about 18 hours later.
+
+---
 
 And that's how Bob Behnken and Doug Hurley will go to space, ushering in a new era of American spaceflight. This is easily one of the most important launches of the decade, and it's one I can't wait to watch. As American astronaut Alan Shepard once said (after waiting in a launch capsule for four hours), "Fix your little problem and light this candle!"
