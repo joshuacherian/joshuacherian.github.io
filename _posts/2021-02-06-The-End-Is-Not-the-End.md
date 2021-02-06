@@ -13,7 +13,7 @@ So, with 9.99 seconds (or better) on my mind, I solved. And solved. And solved. 
 
 Until today.
 
-![png](../images/The_End_is_not_the_End/FirstSub10.png)
+![png](../images/The_End_is_not_the_End/FirstSub10.PNG)
 
 I didn't just break sub-10; I shattered it. I would have been content with a 9.xx time, but I skipped that and went straight to 8. I'm not one to brag, but this would have been a world record 13 years ago.
 
