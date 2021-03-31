@@ -18,3 +18,6 @@ Hello! Thanks for stopping by. My name's Joshua. I'm an aerospace engineer, Rubi
 
 * What is your favorite [Lagrange point](https://en.wikipedia.org/wiki/Lagrangian_point)?
 	* L<sub>2</sub>, for sure. It's mathematically sound, but the idea is still mind-boggling: a point beyond both the Sun and the Earth that stays in lockstep relative to both bodies. Plus, a 2010 article (Evolving to a Depot-Based Space Transportation Architecture by Frank Zegler and Bernard Kutter) suggested using it as a propellant depot for interplanetary travel. How cool is that?
+
+* Did you really co-author a paper on pedestrian safety?
+	* Yup! You can read it by [clicking here.](https://doi.org/10.1016/j.cstp.2021.02.009)
